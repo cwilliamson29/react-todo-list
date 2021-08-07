@@ -8,6 +8,7 @@ function App() {
     <div className="mainBody">
       <LeftBar />
       <RightBar />
+      {console.log(todos[0])}
     </div>
   );
 }
