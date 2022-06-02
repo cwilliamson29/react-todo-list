@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  width: 100%;
+}
+.leftBar {
+  width: 25%;
+  padding: 20px;
+  margin: 0;
+  background-color: green;
+}
+.RightBar {
+  width: 75%;
+  padding: 20px;
+  margin: 0;
+  background-color: red;
+}

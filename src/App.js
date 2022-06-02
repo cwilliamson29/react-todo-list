@@ -1,14 +1,12 @@
-import React from "react";
-import LeftBar from "./ui/leftBar";
-import RightBar from "./ui/rightBar";
-import todos from "./todosData";
+import ReactDOM from "react-dom/client";
+import "./App.css";
+import LeftBar from "./ui/LeftBar";
+import RightBar from "./ui/RightBar";
 
 function App() {
   return (
-    <div className="mainBody">
+    <div className="App">
       <LeftBar />
-      <RightBar />
-      {console.log(todos[0])}
     </div>
   );
 }
